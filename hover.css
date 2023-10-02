@@ -1,0 +1,56 @@
+/*----------------------top-right----------------------*/
+.figure-top-right{
+    width: 550px;
+    height: 385px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+}
+.figure-text{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 550px;
+    height: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    font-size: 30px;
+    color: white;
+}
+.figure-top-right .figure-text:hover{
+    opacity: 1;
+}
+.figure-top-right .figure-text .text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure-top-right .figure-text:hover .text{
+    width: 550px;
+    height: 385px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
+/*----------------------hover01----------------------*/
+.hover01 img{
+    transform: scale(1);
+    transition: .3s;
+}
+.hover01:hover img{
+	transform: scale(1.1);
+}
+.figure{
+    background-color: rgb(14, 21, 21);
+    width: 263px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 5px;
+}
