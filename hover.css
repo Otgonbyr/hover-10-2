@@ -1,3 +1,6 @@
+.h-230px{
+    height: 230px;
+}
 /*----------------------top-right----------------------*/
 .figure-top-right{
     width: 550px;
@@ -20,6 +23,13 @@
     font-size: 30px;
     color: white;
 }
+.hover-top-img img{
+    transform: scale(1);
+    transition: .3s;
+}
+.hover-top-img:hover img{
+    transform: scale(1.1);
+}
 .figure-top-right .figure-text:hover{
     opacity: 1;
 }
@@ -40,6 +50,43 @@
     background-color: black;
 }
 /*----------------------hover01----------------------*/
+.figure{
+    width: 263px;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+}
+.uk_trip{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    width: 263px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+}
+.figure .uk_trip:hover{
+    opacity: 1;
+}
+.figure .uk_trip .uk_text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure .uk_trip:hover .uk_text{
+    width: 263px;
+    height: 170px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
 .hover01 img{
     transform: scale(1);
     transition: .3s;
@@ -47,10 +94,115 @@
 .hover01:hover img{
 	transform: scale(1.1);
 }
-.figure{
-    background-color: rgb(14, 21, 21);
-    width: 263px;
-    height: 170px;
+/*----------------------hover02----------------------*/
+.figure-1{
+    width: 210px;
+    height: 150px;
     overflow: hidden;
-    border-radius: 5px;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+}
+.figure-1 .uk_trap:hover{
+    opacity: 1;
+}
+.figure-1 .uk_trap .uk_text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure-1 .uk_trap:hover .uk_text{
+    width: 210px;
+    height: 150px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.uk_trap{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    width: 210px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+}
+/*----------------------figure-s5----------------------*/
+.figure-s5{
+    width: 260px;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.figure-s5 .uk_trp:hover{
+    opacity: 1;
+}
+.figure-s5 .uk_trp .uk_text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure-s5 .uk_trp:hover .uk_text{
+    width: 260px;
+    height: 230px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.uk_trp{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    width: 260px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
+}
+/*----------------------figure-s7----------------------*/
+.figure-s7{
+    width: 530px;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.figure-s7 .s7-trip:hover{
+    opacity: 1;
+}
+.figure-s7 .s7-trip .s7-text{
+    transition: 0.3;
+    opacity: 1;
+}
+.figure-s7 .s7-trip:hover .s7-text{
+    width: 530px;
+    height: 190px;
+    opacity: 0.6;
+    transform: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.s7-trip{
+    opacity: 0;
+    position: absolute;
+    top:0;
+    width: 530px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    color: white;
 }
